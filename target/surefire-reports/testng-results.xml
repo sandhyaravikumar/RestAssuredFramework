@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-22T21:15:56 IST" name="Surefire suite" finished-at="2022-06-22T21:16:06 IST" duration-ms="10158">
+    <groups>
+    </groups>
+    <test started-at="2022-06-22T21:15:56 IST" name="Surefire test" finished-at="2022-06-22T21:16:06 IST" duration-ms="10158">
+      <class name="com.spotify.oauth2.tests.PlaylistTests">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@4d6ee47]" started-at="2022-06-22T21:15:56 IST" name="beforeMethod" finished-at="2022-06-22T21:15:57 IST" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToGetAPlaylist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@4d6ee47]" started-at="2022-06-22T21:15:56 IST" name="beforeMethod" finished-at="2022-06-22T21:15:57 IST" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.oauth2.tests.PlaylistTests.ShouldNotBeAbleToCreateAPlaylistWithInvalidToken()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@4d6ee47]" started-at="2022-06-22T21:15:56 IST" name="beforeMethod" finished-at="2022-06-22T21:15:57 IST" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToChangeAPlaylist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@4d6ee47]" started-at="2022-06-22T21:15:56 IST" name="beforeMethod" finished-at="2022-06-22T21:15:57 IST" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.oauth2.tests.PlaylistTests.ShouldNotBeAbleToCreateAPlaylistWithoutName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@4d6ee47]" started-at="2022-06-22T21:15:56 IST" name="beforeMethod" finished-at="2022-06-22T21:15:57 IST" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreateAPlaylist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ShouldNotBeAbleToCreateAPlaylistWithInvalidToken()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@4d6ee47]" started-at="2022-06-22T21:15:57 IST" name="ShouldNotBeAbleToCreateAPlaylistWithInvalidToken" finished-at="2022-06-22T21:16:04 IST" duration-ms="7009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShouldNotBeAbleToCreateAPlaylistWithInvalidToken -->
+        <test-method signature="ShouldBeAbleToGetAPlaylist()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@4d6ee47]" started-at="2022-06-22T21:15:57 IST" name="ShouldBeAbleToGetAPlaylist" finished-at="2022-06-22T21:16:06 IST" duration-ms="9456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShouldBeAbleToGetAPlaylist -->
+        <test-method signature="ShouldNotBeAbleToCreateAPlaylistWithoutName()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@4d6ee47]" started-at="2022-06-22T21:15:57 IST" name="ShouldNotBeAbleToCreateAPlaylistWithoutName" finished-at="2022-06-22T21:16:06 IST" duration-ms="9184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShouldNotBeAbleToCreateAPlaylistWithoutName -->
+        <test-method signature="ShouldBeAbleToCreateAPlaylist()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@4d6ee47]" started-at="2022-06-22T21:15:57 IST" name="ShouldBeAbleToCreateAPlaylist" description="User should be able to create a new playlist" finished-at="2022-06-22T21:16:06 IST" duration-ms="9457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShouldBeAbleToCreateAPlaylist -->
+        <test-method signature="ShouldBeAbleToChangeAPlaylist()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@4d6ee47]" started-at="2022-06-22T21:15:57 IST" name="ShouldBeAbleToChangeAPlaylist" finished-at="2022-06-22T21:16:06 IST" duration-ms="9381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShouldBeAbleToChangeAPlaylist -->
+      </class> <!-- com.spotify.oauth2.tests.PlaylistTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
